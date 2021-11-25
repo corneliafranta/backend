@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/game-status",
+      "handler": "game-status.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/game-status",
+      "handler": "game-status.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/game-status",
+      "handler": "game-status.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

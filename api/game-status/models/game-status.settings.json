@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "game_statuses",
+  "info": {
+    "name": "gameStatus"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rehersed_words": {
+      "collection": "word"
+    },
+    "lastSubcategory": {
+      "model": "subcategories"
+    }
+  }
+}

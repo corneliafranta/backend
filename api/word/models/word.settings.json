@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "words",
+  "info": {
+    "name": "word",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "foreign": {
+      "type": "string"
+    },
+    "english": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "boolean",
+      "default": false
+    },
+    "repeted": {
+      "type": "integer",
+      "default": 0
+    }
+  }
+}

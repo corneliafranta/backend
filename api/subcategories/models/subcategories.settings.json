@@ -1,0 +1,26 @@
+{
+  "kind": "collectionType",
+  "collectionName": "subcategories",
+  "info": {
+    "name": "subcategories",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "completed": {
+      "type": "integer",
+      "default": 0
+    },
+    "words": {
+      "collection": "word"
+    }
+  }
+}

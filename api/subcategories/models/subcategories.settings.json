@@ -21,6 +21,9 @@
     },
     "words": {
       "collection": "word"
+    },
+    "completedWords": {
+      "collection": "word"
     }
   }
 }

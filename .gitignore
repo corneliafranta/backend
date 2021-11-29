@@ -1,7 +1,7 @@
 ############################
 # OS X
 ############################
-.tmp
+
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -64,7 +64,7 @@ $RECYCLE.BIN/
 ############################
 # Logs and databases
 ############################
-
+.tmp
 *.log
 *.sql
 *.sqlite
@@ -78,7 +78,6 @@ $RECYCLE.BIN/
 *#
 ssl
 .idea
-.tmp
 nbproject
 public/uploads/*
 !public/uploads/.gitkeep
@@ -107,7 +106,6 @@ coverage
 ############################
 
 .env
-.tmp
 license.txt
 exports
 *.cache

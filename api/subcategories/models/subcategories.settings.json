@@ -15,10 +15,6 @@
     "name": {
       "type": "string"
     },
-    "completed": {
-      "type": "integer",
-      "default": 0
-    },
     "words": {
       "collection": "word"
     },

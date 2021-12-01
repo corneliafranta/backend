@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_wordtypes_verb_infos",
+  "info": {
+    "name": "verbInfo",
+    "icon": "hiking"
+  },
+  "options": {},
+  "attributes": {
+    "infinitive": {
+      "type": "string"
+    },
+    "presentTense": {
+      "type": "string"
+    },
+    "pastSimple": {
+      "type": "string"
+    },
+    "pastPerfect": {
+      "type": "string"
+    },
+    "future": {
+      "type": "string"
+    },
+    "imperative": {
+      "type": "string"
+    }
+  }
+}

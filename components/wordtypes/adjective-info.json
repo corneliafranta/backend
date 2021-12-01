@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_wordtypes_adjective_infos",
+  "info": {
+    "name": "adjectiveInfo",
+    "icon": "asterisk",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "common": {
+      "type": "string"
+    },
+    "neuter": {
+      "type": "string"
+    },
+    "plural": {
+      "type": "string"
+    },
+    "comparative": {
+      "type": "string"
+    },
+    "superlative": {
+      "type": "string"
+    }
+  }
+}

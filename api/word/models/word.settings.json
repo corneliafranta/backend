@@ -37,6 +37,14 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "information": {
+      "type": "dynamiczone",
+      "components": [
+        "wordtypes.adjective-info",
+        "wordtypes.nomen-info",
+        "wordtypes.verb-info"
+      ]
     }
   }
 }

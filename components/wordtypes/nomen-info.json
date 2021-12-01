@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_wordtypes_nomen_infos",
+  "info": {
+    "name": "nomenInfo",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "indefinte": {
+      "type": "string"
+    },
+    "definite": {
+      "type": "string"
+    },
+    "indefinitePlural": {
+      "type": "string"
+    },
+    "definitePlural": {
+      "type": "string"
+    },
+    "article": {
+      "type": "enumeration",
+      "enum": [
+        "en",
+        "ett"
+      ]
+    }
+  }
+}
